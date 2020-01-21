@@ -39,7 +39,7 @@ class CSfx(wx.Frame):
         self.Layout()
 
         self.Centre(wx.BOTH)
-        speak.Speak("hey mate, CSfx at your service")
+        speak.Speak("hey mate, i am at your service")
 
         # Connect Events
         self.m_button1.Bind(wx.EVT_BUTTON, self.txtin)
